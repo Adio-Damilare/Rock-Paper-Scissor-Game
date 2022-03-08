@@ -1,10 +1,10 @@
 var scoreOfUser = 0;
 var scoreOfComputer = 0;
 var options = ['rock','scissor','paper']
-var name = (input.value)      
+var name = input.value
 
 function start(){
-    
+    var deer = new Audio("owo.mp3")
     var name = (input.value)
     you.innerText = name
     userScore.innerText = 0;
@@ -13,6 +13,7 @@ function start(){
     scoreOfUser = 0;
     scoreOfComputer = 0;
     display.innerText ="click on any button to start"
+    deer.play()     
     
 }
 

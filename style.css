@@ -93,9 +93,37 @@ body{
 }
 
 marquee{
-    /* animation: mar 4s linear 2s ; */
+    animation: mar 4s linear 0s  infinite;
     width: 200px;
     font-size: 24px;
+}
+
+@keyframes mar{
+    0%{
+    color: red;
+    font-family: sans-serif;
+    font-style: normal;
+}
+20%{
+    font-family: sans-serif;
+    font-style: normal;
+    color: blue;
+}
+50%{
+    font-family: sans-serif;
+    font-style: normal;
+    color: yellow;
+}
+70%{
+    font-family: sans-serif;
+    font-style: normal;
+    color: violet;
+}
+90%{
+    font-style: normal;
+     font-family: sans-serif;
+    color:orange;
+    }
 }
 
  
