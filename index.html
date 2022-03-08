@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="game">
+       <marquee behavior="scroll" direction="">Oluwadamilare Game</marquee>
+       <section>
+        <input type="text"  id="input" placeholder="Enter your name here" maxlength="8">
+        <button onclick="start()">Start</button>
+       </section>
+
+        <table border="1"  height="100px" >
+            <tr>
+                <td ><div id="you">you</div></td>
+                <td>Computer</td>
+            </tr>
+            <tr>
+                <td><p id="userScore">0</p></td>
+                <td><p id="computerScore">0</p></td>
+            </tr>
+            
+        </table>
+
+        <div class="interface">
+            <div id="display">Write you name at the top and click on start </div>
+            <button onclick="rock()">Rock</button>
+            <button onclick="pape()">Paper</button>
+            <button onclick="scissor()">Scissor</button>
+            <button onclick="restart()">Restart</button>
+        </div>
+   </div>
+    
+</body>
+</html>

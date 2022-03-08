@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+table{
+    border:thin solid;
+    width: 160px;
+    height: 70px;
+    margin: 0px 30px;
+    border-radius: 10px;
+    border-collapse:separate;
+}
+
+
+button:hover{
+    border: none;
+    background-color: wheat;
+    color: red;
+    transform: scale(1.1);
+}
+
+
+button{
+    border-radius: 5px;
+    height: 40px;
+    color: white;
+    width: 100px;
+    margin: 20px 5px;
+    background-color: blueviolet;
+    box-shadow: 05px 5px 5px black ;
+}
+
+.game{
+    transform: translate(400px,60px);
+    height: 500px;
+    width: 40pc;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(235, 230, 230),rgb(233, 233, 73), rgb(241, 114, 114),rgb(115, 170, 241));
+    border-radius: 30px;
+}
+
+.interface #display{
+    border: thin groove;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+    border-style: groove;
+    border-width: 8px;
+    font-family: "poppin" serif;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+input::placeholder{
+    font-size: 15px;
+}
+
+
+input{
+    text-transform: capitalize;
+    margin: 20px 0px;
+    height: 40px;
+    font-size: 20px;
+    padding: 0px 20px;
+    width: 270px;
+}
+
+
+td{ 
+    text-transform: capitalize;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border: thin solid;
+    border-radius: 10px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+marquee{
+    /* animation: mar 4s linear 2s ; */
+    width: 200px;
+    font-size: 24px;
+}
+
+ 
+    
+@media screen and (max-width:934px) {
+    game{
+        transform: translate(-2000px,60px);
+        height: 500px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(rgb(235, 230, 230),rgb(233, 233, 73), rgb(241, 114, 114),rgb(115, 170, 241));
+        border-radius: 30px;
+    }
+    
+    
+}
